@@ -2,7 +2,17 @@
 
 ## 📋 CEIA FIUBA - Visión por Computadora 2 - Trabajo Final
 
-**Objetivo:** Desarrollar y comparar múltiples enfoques para la detección automática de grietas en superficies de concreto, combinando técnicas de Deep Learning y Computer Vision clásica.
+**Objetivo:** Desarrollar y comparar múltiples enfoques para la detección automática de grietas en superficies de concreto, combinando técnicas de Deep Learning y Computer Vision.
+
+
+**2° Bimestre 2025**
+
+### Grupo
+
+| Autores        | E-mail                     | Nº SIU |
+|----------------|----------------------------|--------|
+| Daniel Peña    | danielfer.colt01@gmail.com | a1818  |
+| Nicolas Pinzon | npinzonaparicio@gmail.com   | a1820  |
 
 ---
 
@@ -116,7 +126,6 @@ crack_detection_project/
 │   ├── comparison_table.csv    # Tabla comparativa modelos
 │   ├── final_report.md         # Reporte técnico completo
 │   └── segmentation_report.md  # Análisis segmentación clásica
-├── notebooks/                  # Jupyter notebooks (opcional)
 ├── compare_results.py          # Script comparación automática
 ├── run_experiment.py           # Experimento completo automatizado
 └── README.md                   # Este archivo
@@ -130,8 +139,8 @@ crack_detection_project/
 ```bash
 # Crear entorno virtual
 python -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-# .venv\Scripts\activate   # Windows
+# source .venv/bin/activate  # Linux/Mac
+.venv\Scripts\activate   # Windows
 
 # Instalar dependencias
 pip install -r requirements.txt

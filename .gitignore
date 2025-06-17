@@ -31,5 +31,5 @@ venv/
 Thumbs.db
 
 # Logs
-*.log
-results/logs/
+#*.log
+#results/logs/
