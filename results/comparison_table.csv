@@ -1,0 +1,4 @@
+Modelo,Test Accuracy,Test F1-Score,Test Precision,Test Recall,Best Val Acc,Épocas,Parámetros
+ResNet18_Optimized,0.9988,0.9988,0.9988,0.9988,0.9992,8,11308354
+SimpleCNN,0.9985,0.9985,0.9985,0.9985,0.9989,14,422530
+ResNet18,0.9980,0.9980,0.9980,0.9980,0.9986,8,11308354
