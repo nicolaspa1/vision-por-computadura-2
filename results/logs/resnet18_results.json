@@ -1,0 +1,24 @@
+{
+  "model_name": "ResNet18",
+  "config": {
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "epochs": 15,
+    "patience": 7,
+    "scheduler": "cosine"
+  },
+  "test_results": {
+    "loss": 0.202,
+    "accuracy": 0.998,
+    "metrics": {
+      "accuracy": 0.998,
+      "precision": 0.998,
+      "recall": 0.998,
+      "f1": 0.998,
+      "auc": 0.9999
+    }
+  },
+  "best_val_accuracy": 0.9986,
+  "total_epochs": 8,
+  "total_params": 11308354
+}

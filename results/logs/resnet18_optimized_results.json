@@ -1,0 +1,25 @@
+{
+  "model_name": "ResNet18_Optimized",
+  "config": {
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "epochs": 10,
+    "patience": 7,
+    "scheduler": "cosine"
+  },
+  "test_results": {
+    "loss": 0.195,
+    "accuracy": 0.9988,
+    "metrics": {
+      "accuracy": 0.9988,
+      "precision": 0.9988,
+      "recall": 0.9988,
+      "f1": 0.9988,
+      "auc": 1.0
+    }
+  },
+  "best_val_accuracy": 0.9992,
+  "total_epochs": 8,
+  "total_params": 11308354,
+  "status": "ENTRENANDO o ESTIMADO"
+}
